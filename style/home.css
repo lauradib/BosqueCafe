@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#logoHeader{
+    width: 170px;
+}
+
+#header{
+    background-color: #293724;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    gap: 0px;
+
+}
+
+.btn-outline-success {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #797979;
+    --bs-btn-hover-border-color: #797979;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #000000;
+    --bs-gradient: none;}
+
+
+    #cafes{
+        width: 100%;
+       height: 1000px;
+    }
+
+    .btn-ver{
+        background-color: #293724;
+        color: white;
+    }
