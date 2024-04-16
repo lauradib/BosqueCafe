@@ -28,16 +28,16 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Produtos</a>
+                    <a class="nav-link" href="#produtos">Produtos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Promoções</a>
+                    <a class="nav-link" href="#h2">Quem somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cardapio">Cardápio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Onde estamos?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Quem somos?</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -230,23 +230,73 @@
             </div>
         </div>  
 
+        <!-- Produto 5 -->
+        <div class="card" style="width: 18rem;">
+          <img src="image/produtos/caneca e copo.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Copos e canecas</h5>
+            <p class="card-text"> <b>DESCRIÇÃO:</b> <br>
+              O Kit Baggio Café Moídos Master com 7 cafés torrados e moídos é perfeito para você que deseja ter todas as variedades à sua disposição!</p>
+            <button type="button" class="btn btn-ver" data-bs-toggle="modal" data-bs-target="#copo">
+              Ver Mais
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="copo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Copos e canecas </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img class="w-100" src="image/produtos/caneca e copo.jpg" alt="image do produto">
+                <p> Aproveite toda a intensidade dos cafés gourmet e a cremosidade dos cafés aromatizados. Com moagem média, nossos cafés são perfeitos para diversos métodos de extração e te levam para uma experiência única.</p>
+                <h4 class="text-success my-2">R$99,90</h4>
+              </div>
+              <div class="modal-footer">
+                <button  type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-success">Adicionar ao carrinho</button>
+              </div>
+            </div>
+          </div>
+      </div>  
+
       </div>
 
         </section>
 
-
-        <section id="meiobanner" >
-          <img id="bosquecafe" class="w-100" src="image/cafebosque.png" alt="">
-          <h2 class="d-flex justify-content-center m-4">Sobre Nós!</h2>
-          <p id="sobrenos">Desde <b>2002</b>, o <b>Bosqué Café</b> tem sido um refúgio para os amantes do café. Nossa jornada começou com a visão de oferecer uma experiência única de café, onde cada gole conta uma história de qualidade e paixão. Com raízes profundas na tradição do café brasileiro, selecionamos cuidadosamente nossos grãos das melhores plantações locais, garantindo que cada xícara ofereça o sabor autêntico e a riqueza que nossos clientes merecem.
+        <!-- sobre nós -->
+        <section id="meiobanner1" >
+          <img id="bosquecafe" class="w-100" src="image/cafebosque.png" alt=""></section>
+          <div id="h2" > <h2 class="text-center">SOBRE NÓS!</h2></div>
+          <section class="d-flex" id="meiobanner2" >
+            <img  id="lugar" src="image/ambiente.jpg" alt="">
+          <p id="sobrenos">Desde <b>2002</b>, no <b> Bosqué Café </b> cada detalhe é pensado para enriquecer sua experiência. Desde a música ambiente que ecoa suavemente pelas paredes até a arte cuidadosamente selecionada que adorna nosso espaço, criamos um santuário para os sentidos. Nossos baristas são verdadeiros artesãos, treinados na arte de preparar o café perfeito, seja ele um espresso robusto ou um latte delicadamente decorado.
           <br>
-          <br>Ao longo dos anos, nos dedicamos a criar um ambiente acolhedor e inspirador, onde amigos, família e colegas podem se reunir para desfrutar de momentos preciosos. No Bosqué Café, acreditamos que o café é mais do que uma bebida; é uma experiência cultural que conecta pessoas e cria memórias.
+          <br>Nossa paixão pelo café se estende à nossa variedade de produtos. Além das tradicionais bebidas de café, oferecemos infusões inovadoras, sobremesas artesanais e opções de lanches saudáveis. Cada item do nosso menu é feito com ingredientes de alta qualidade, garantindo que cada visita ao Bosqué Café seja uma nova descoberta.
           <br>
-          <br>Estamos comprometidos com a sustentabilidade e práticas éticas de comércio, assegurando que nosso amor pelo café também contribua para o bem-estar das comunidades produtoras. Ao escolher o Bosqué Café, você não está apenas saboreando uma xícara excepcional de café, mas também apoiando uma cadeia de amor e respeito por todo o processo, da semente à xícara.
+          <br>Entendemos que o café é uma jornada pessoal. Por isso, oferecemos workshops e degustações para aqueles que desejam aprofundar seus conhecimentos e apreciação pelo café. Nossos eventos são uma oportunidade para aprender sobre a história do café, técnicas de preparo e dicas de harmonização.
           <br>
           <br> <b>Venha nos visitar e faça parte da nossa história, onde cada xícara de café é uma celebração da vida e da paixão que nos move.</b></p>
+         
 
         </section>
+
+
+      <section id="cardapio">
+
+        <h1 class="d-flex justify-content-center " >Venha conhecer nosso cardápio!</h1>
+        <img id="imgcardapio" src="image/cardapio/Design sem nome.png" alt="">
+        <a id="botao" href="pdf/Cardápio Café.pdf">
+          <button type="button" class=" d-flex justify-content-center btn btn-primary btn-lg">Cardápio</button>
+        </a>
+        
+
+
+
+      </section>
+
 
 
     </main>
