@@ -25,7 +25,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#banner">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#produtos">Produtos</a>
@@ -37,7 +37,7 @@
                     <a class="nav-link" href="#cardapio">Cardápio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Onde estamos?</a>
+                    <a class="nav-link" href="#localizacao">Faça uma reserva</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -268,7 +268,8 @@
 
         <!-- sobre nós -->
         <section id="meiobanner1" >
-          <img id="bosquecafe" class="w-100" src="image/cafebosque.png" alt=""></section>
+          <img id="bosquecafe" class="w-100" src="image/cafebosque.png" alt="">
+        </section>
           <div id="h2" > <h2 class="text-center">SOBRE NÓS!</h2></div>
           <section class="d-flex" id="meiobanner2" >
             <img  id="lugar" src="image/ambiente.jpg" alt="">
@@ -284,24 +285,51 @@
         </section>
 
 
-      <section id="cardapio">
-
-        <h1 class="d-flex justify-content-center " >Venha conhecer nosso cardápio!</h1>
-        <img id="imgcardapio" src="image/cardapio/Design sem nome.png" alt="">
-        <a id="botao" href="pdf/Cardápio Café.pdf">
-          <button type="button" class=" d-flex justify-content-center btn btn-primary btn-lg">Cardápio</button>
-        </a>
-        
-
-
-
+        <section id="cardapio" class="d-flex justify-content-center align-items-center">
+          <h1>Venha conhecer nosso cardápio!</h1>
+          <img id="imgcardapio" src="image/cardapio/Design sem nome.png" alt="">
+          <a id="botao" href="pdf/Cardápio Café.pdf">
+              <button type="button" class="btn btn-primary btn-lg">Cardápio</button>
+          </a>
       </section>
 
 
+      <h2 id="h2reserva" >Faça sua reserva!</h2>
+      <section id="reserva" class="d-flex justify-content-center align-items-center">
+        <form>
+            <div class="align-items-center">
+                <label for="exampleInputEmail1" class="form-label">E-mail para contato:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Não divulgamos seus dados.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Data desejada:</label>
+                <input type="date" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Desejo receber um E-mail de confirmação.</label>
+            </div>
+            <button type="submit" class="btn btn-primary"> Reservar.</button>
+        </form>
+    </section>
 
     </main>
+   
+    <footer>
 
-    <footer></footer>
+
+      <h5 id="localizacao" >SQS 505 - ASA SUL - BRASILIA - DF
+        <br>
+        <br>
+        Entre em contato: bosquecafe@gmail.com
+        <br>
+        <br>
+        Telefone: (61) 3456-7890 
+        </h5>
+
+
+    </footer>
 
  <script src="script/bootstrap.bundle.min.js"></script>   
  

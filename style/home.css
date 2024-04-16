@@ -21,7 +21,7 @@
 
 }
 
-.btn-outline-success {
+.btn-ver {
     --bs-btn-color: #ffffff;
     --bs-btn-border-color: #ffffff;
     --bs-btn-hover-color: #fff;
@@ -82,26 +82,56 @@
 
     h1{
         color: #a7760d;
-        margin-top: 50px;
+        
     
     }
 
    #botao{
       display: flex;
       justify-content: center;
-      margin-top: 50px;
-   }
-
-   #imgcardapio{
-       width: 700px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 600px;
+   
       
    }
 
+   #imgcardapio {
+    width: 700px;
+}
+
     #cardapio{
-        background-color: #013220;
+        height: 500px;
+        margin-top: 80px;
+        background: rgb(1,50,32);
+        background: linear-gradient(90deg, rgba(1,50,32,1) 0%, rgba(38,14,12,1) 100%);
         
+        
+    }
+
+    #h2reserva{
+        display: flex;
+        justify-content: center;
+        color: #71741c;
+        margin-top: 30px;
+    }
+
+    footer {
+        display: flex;
+       
+    }
+    
+    #reserva {
+        width: 100%; 
+        height: 30vh; 
+    }
+
+    footer{
+        margin-top: 30px;
+        background-color: #293724;
+        color: white;
+        height: 200px;
+        align-items: center;
+    }
+
+    #localizacao{
+       margin: 40px;
+       display: flex;
     }
